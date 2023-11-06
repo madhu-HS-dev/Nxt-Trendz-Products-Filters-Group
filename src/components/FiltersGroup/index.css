@@ -1,0 +1,68 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-bar-container {
+  background-color: #f1f5f9;
+  border: none;
+  border-radius: 5px;
+  width: 240px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 30px;
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+.category-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.category-container {
+  margin-top: 20px;
+}
+
+.category-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.clear-filter-button {
+  background-color: transparent;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-weight: 450;
+  border: solid 1px #0967d2;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+}

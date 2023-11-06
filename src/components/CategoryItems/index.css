@@ -1,0 +1,16 @@
+.category-lists-container {
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.category-name {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.active-className {
+  color: #0967d2;
+}
